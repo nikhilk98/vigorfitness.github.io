@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIGOR FITNESS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+</head>
+<body>
+    <section class="contact-header">
+        <nav>
+            <a href="index.html"><img src="/images/GOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h2> CONTACT US</h2>
+    </section>
+    <!--contact us-->
+    <section class="location">
+        
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+               
+               <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>xyz road, abc buiding</h5>
+                    <p>dombivli maharashtra</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>1400 348 6789</h5>
+                    <p>monday to saturday </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>vigorfitness.com</h5>
+                    <p>email for contract work</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter you name" required>
+                <input type="text" placeholder="Enter you address" required>
+                <input type="text" placeholder="Enter you subject" required>
+                <textarea rows="8" placeholder="message"required></textarea>
+                <button type="submit" class="hero-btn">Send message</button>
+            </form>
+        </div>
+        </div>
+    </section>
+              
+    
+    <!--javascript-->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+
+    </script>
+     
+      <!---footer-->
+      
+      <section class="footer">
+          <h4>Vigor Fitness</h4>
+          <p>
+              
+          </p>
+          <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              
+          </div>
+      </section>
+    
+      
+    
+    
+    
+</body>
+</html>

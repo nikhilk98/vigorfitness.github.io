@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIGOR FITNESS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+</head>
+<body>
+    <section class="menu-header">
+        <nav>
+            <a href="index.html"><img src="/images/GOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h2> PRODUCTS </h2>
+    </section>
+      <!--about us content-->
+     
+      
+     
+      <section class="Menu">
+          <h1>Best Selling</h1>
+
+        
+             <div class="row">
+            <div class="menu-col ">
+                <img src="/images/D.jpg">
+                <h2> Dumbbells </h2>
+            <p>Lorem ipsum dolor sit </p>
+            
+            </div>
+            <div class="menu-col">
+                <img src="/images/WATCH.jpg">
+                <h2> Sport Watches  </h2>
+                <p>Lorem ipsum dolor sit
+
+                </p>
+            </div>
+            <div class="menu-col">
+                <img src="/images/YOGA.jpeg">
+                <h2> Yoga Ropes </h2>
+                <p>Lorem ipsum dolor sit
+
+                </p>
+            </div>
+
+
+              </div>
+              
+              <div class="row">
+                <div class="menu-col">
+                    <img src="/images/EQUIPMENTS.jpg">
+                    <h2> Treadmill and Home bikes </h2>
+                <p>Lorem ipsum dolor sit</p>
+                
+                </div>
+                <div class="menu-col">
+                    <img src="/images/PROTEIN.jpg">
+                    <h2> Proteins  </h2>
+                    <p>Lorem ipsum dolor sit
+    
+                    </p>
+                </div>
+                <div class="menu-col">
+                    <img src="/images/SUPPLEMENTO.jpg">
+                    <h2> Supplements  </h2>
+                    <p>Lorem ipsum dolor sit
+    
+                    </p>
+                </div>
+    
+    
+                  </div>
+                  
+              
+    </section>
+    <!--javascript-->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+
+    </script>
+     
+      <!---footer-->
+      
+      <section class="footer">
+          <h4>Vigor Fitness</h4>
+          <p>
+              
+          </p>
+          <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              
+          </div>
+      </section>
+    
+      
+    
+    
+    
+</body>
+</html>
